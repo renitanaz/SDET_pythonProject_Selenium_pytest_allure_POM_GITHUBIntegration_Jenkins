@@ -1,0 +1,6 @@
+test_setup done
+assert 'OrangeHRM' == 'OrangeHRMC'
+  
+  - OrangeHRMC
+  ?          -
+  + OrangeHRM
