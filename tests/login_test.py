@@ -18,7 +18,7 @@ class TestLogin:
             login.enter_username(Utils.USERNAME)
             login.enter_password(Utils.PASSWORD)
             login.click_login()
-            assert driver.title =='OrangeHRMC'
+            assert driver.title =='OrangeHRM'
         except AssertionError as error:
             print(error)
             allure.attach(self.driver.get_screenshot_as_png(),name="screenshot",
